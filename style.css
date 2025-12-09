@@ -150,7 +150,7 @@ header {
     transition: all 0.4s ease;
 }
 
-.modal-overlay .modal-contenido {
+.modal-overlay.activo .modal-contenido {
     transform: translateY(0);
 }
 
@@ -187,5 +187,6 @@ header {
     letter-spacing: 1px;
     transition: background 0.3s;
 }
+
 
 .btn-email:hover { background: #333; }
